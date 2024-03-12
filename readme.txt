@@ -10,7 +10,7 @@ The AGVQA datasets comes with this directory and you can download and format the
 the datasets_downloader from the scripts directory.
 
 You can run the different methods and datasets by running the main.py file. It requires 3 arguments: method, datasets and output_filepath. 
-PICA method has a different process described later.The documentation for which is in the pica methods file.
+PICA method has a different process described.The documentation for which is in the pica methods file.
 
 You can evaluate the datasets in two different ways basic_eval which will do an exact match search in the answer and 
 gpt_eval which will use chatgpt to check whether the ground truth answer is equivalent to the answer predicted by the different methods.
